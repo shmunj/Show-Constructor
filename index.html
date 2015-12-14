@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Constructor</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+    <div id="show">
+
+        <div id="popup_input">
+            <input type="text"/>
+        </div>
+        
+        <h3><span class="edit_us show_title">Show Title</span></h3>
+        
+        <header id="main_menu">
+            <button id="settings_button" style="">SETTINGS</button>
+        </header>
+
+        <div id="settings">
+            <p>Minimum scenes per episode: <span class="setting edit_me"></span></p>
+            <p>Minimal importance value: <span class="setting edit_me"></span></p>
+            <p>Number of scenes in "previously on" section: <span class="setting edit_me"></span></p>
+            <p>Default importance value: <span class="setting edit_me"></span></p>
+            <p>Default decay value: <span class="setting edit_me"></span></p>
+        </div>
+
+        <div id="episodespace">
+            <div class="episode">
+                <header>
+                <h5 class="number">1</h5><h5><span class="edit_me episode_title">Episode Title</span></h5>
+                <button class="minimize">-</button>
+                </header>
+                <div class="scenespace">
+                    <div class="scene empty">
+                        <button class="new_scene">add scene</button>
+                    </div>
+                </div>
+            </div>
+            <div class="episode empty">
+                <button class="new_episode">add episode</button>
+            </div>
+        </div> <!-- episodespace -->
+
+    </div> <!-- show -->
+
+<script src="js/jquery.js"></script>
+<script src="js/showc.js"></script>
+</body>
+</html>

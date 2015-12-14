@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background: #533747;
+}
+
+button {
+    background: #eae6e6;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+button:hover {
+    background: #cfd3d5;
+}
+
+.minimize {
+    float: right;
+    width: 30px;
+}
+
+.scene {
+    background: #86bbbd;
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+textarea {
+    background: #4c3f44;
+    color: #b6bcb9;
+}
+
+.empty {
+    background: none !important;
+    margin: 0;
+}
+
+.episode {
+    background: #76949f;
+    padding: 10px;
+    margin: 5px;
+}
+
+#show {
+    width: 600px;
+    margin: 0 auto;
+    background: #533747;
+    padding: 0;
+}
+
+.previously {
+    background: #6a6b83;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffb633;
+}
+
+.previously p {
+    margin: 2px 10px;
+    color: #ffe4b3;
+}
+
+.episode h5 {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#popup_input {
+    display: none;
+    position: absolute;
+    background: #5f506b;
+    padding: 10px;
+}
+
+#popup_input input[type=number] {
+    width: 50px;
+}
+
+#popup_input input[type=text] {
+    width: 150px;
+}
+
+.edit_me, .edit_us {
+    color: #eae6e6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit_me:hover, .edit_us:hover {
+    color: #cfd3d5;
+}
+
+.scene span {
+    margin: 0 10px;
+}
+
+textarea {
+    padding: 10px;
+    height: 50px;
+    width: calc(100% - 25px);
+}
+
+.episode header {
+    margin: 5px;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+#settings {
+    display: none;
+    font-size: 14px;
+    background: #86bbbd;
+    padding: 10px 30px;
+}
+
+#main_menu {
+    text-align: center;
+}
