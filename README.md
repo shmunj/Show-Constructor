@@ -1,4 +1,4 @@
-#Show Constructor
+# Show Constructor
 
 An application for helping me generate narratives for an upcoming animated show project "Previously on Previously on". The project will consist only of "previously on" montages, leaving the viewer to piece together the story without having access to the whole narrative (especially the last episode, not even a part of which will ever be shown).
 
